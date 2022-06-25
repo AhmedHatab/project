@@ -1,0 +1,132 @@
+
+body{
+    background-color: black
+}
+#sideNav .headNav{
+    width: 60px;
+    height: 100vh;
+    padding: 30px 0;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;  
+    z-index: 999; 
+}
+#sideNav .strip-logo{
+    width: 33px;
+}
+#sideNav .headNav i{
+    font-size: 27px;
+    cursor: pointer;
+}
+#sideNav .headNav .socilIcon i{
+    font-size: 16px ;
+}
+#sideNav .mainNav{
+    background-color: black;
+    padding: 30px 0;
+    width: 0;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;  
+    z-index: 999;
+}
+#sideNav .mainNav li{
+    list-style: none;
+    padding: 9px 0;
+}
+#sideNav .mainNav li a{
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+#sideNav .mainNav li a:hover{
+    color: rgb(204, 37, 32);
+}
+#sideNav .mainNav i:hover{
+    color: rgb(204, 37, 32);
+    cursor: pointer;
+}
+.g-4 .imgcover{
+    height: 500px;
+    width: 400px;
+    position: relative;
+    background-color: rgb(0, 0, 0);  
+}
+.g-4 .img-fluid{
+    height: 100%;
+    width: 87%;
+}
+.captionImg{
+    color: white;
+    opacity: 0;
+    width: 87%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(83, 117, 113, 0.658);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 21px;
+    transition: all .7s;
+}
+.g-4 .imgcover:hover .captionImg{
+    opacity: 1;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Base Responsive Media Queries ------------------------------ */
+
+/* Desktop specific */
+@media (max-width: 979px) 
+{
+  
+}
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+  
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) 
+{ 
+	
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) 
+{
+	
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) 
+{
+	
+	
+}
